@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-green-gradient {
+  background: linear-gradient(43deg, #8efe00 0%, #1b81c4 86%, #1b81c4 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-green-gradient2 {
+  background: linear-gradient(120deg, #ededed 0%, #48e580 80%, #a9e846 120%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-green-violet-gradient {
+  background: linear-gradient(43deg, #8efe00 0%, #1b81c4 86%, #1b81c4 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-violet-to-green-gradient {
+  background: linear-gradient(43deg, #48e580 0%, #7039c7 56%, #48e580 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (min-width: 768px) {
+  .text-green-violet-gradient {
+    background: linear-gradient(43deg, #ff0098 0%, #7039c7 90%, #7039c7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+.text-violet-gradient {
+  background: linear-gradient(43deg, #ff0098 0%, #7039c7 90%, #7039c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.blue-light-gradient {
+  background: linear-gradient(180deg, rgba(226, 220, 245, 0) 0%, #4198e9 100%);
+  filter: blur(123px);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-slide {
+  animation: 35s slide infinite linear;
+}
+.embla__viewport {
+  overflow-x: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 auto;
+}
+.embla__controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.8rem;
+}
+
+.embla__dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem; /* Adjust the gap between dots */
+}
+
+.embla__dot {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #7039c7;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+}
+.embla__dot:after {
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  content: "";
+}
+.embla__dot--selected:after {
+  box-shadow: inset 0 0 0 0.2rem var(--text-body);
+}
+
+/* Estilo para el contenedor interno */
+.border-violet-container {
+  border: 1px solid #7039c7;
+  border: 1px transparent;
+  background-image: linear-gradient(#1d1b22, #1d1b22),
+    linear-gradient(270deg, #29a9ff, #bfd2de, #29a9ff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+/* Estilo para los inputs, selects y textareas dentro del contenedor */
+.border-violet-container input,
+.border-violet-container select,
+.border-violet-container textarea .border-violet-container select {
+  width: 100%;
+  padding: 10px 30px 10px 20px;
+  border: none;
+  background: transparent;
+}
