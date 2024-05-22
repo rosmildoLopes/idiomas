@@ -3,8 +3,7 @@ import { useTranslation } from "../../../i18n/client";
 
 import Image from "next/image";
 import React from "react";
-import { agba } from "../../font/font";
-import { titan } from "../../font/font";
+import { agba, titan } from "../../font/font";
 
 interface BeneficiosProps {
   lng: string;
@@ -92,8 +91,8 @@ const Beneficios: React.FC<BeneficiosProps> = ({ lng }) => {
               className="w-[50px] h-[50px] md:w-[75px] md:h-[75px]"
             />
             <p className="pl-2 md:text-3xl text-lg text-white font-bold">
-              Comunidad <br />{" "}
-              <span className={`${agba.className} text-firstBlue`}>Numen</span>
+            {t("comunidad")}
+              <span className={`${agba.className} text-firstBlue`}> {t("sub-comunidad")}</span>
             </p>
           </div>
         </div>
@@ -154,7 +153,7 @@ const Beneficios: React.FC<BeneficiosProps> = ({ lng }) => {
             <p className="pl-2 md:text-3xl text-lg text-white font-bold">
               {t("comunidad")} <br />{" "}
               <span className={`${agba.className} text-firstBlue`}>
-                {t("sub-certificacion")}
+                {t("sub-comunidad")}
               </span>
             </p>
           </div>
@@ -163,7 +162,7 @@ const Beneficios: React.FC<BeneficiosProps> = ({ lng }) => {
           <div className="flex flex-row items-center mr-40">
             <Image
               src="comisionesReducidasIcon.svg"
-              alt=""
+              alt="icon de comisiones reducidas"
               width={75}
               height={75}
               priority

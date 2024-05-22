@@ -1,0 +1,78 @@
+{
+  "links": [
+    {
+      "name": "COURSES",
+      "submenu": true,
+      "sublinks": [
+        {
+          "Head": "Marketing",
+          "sublink": [
+            {
+              "name": "Digital marketing",
+              "link": "/marketing"
+            },
+            {
+              "name": "Political marketing",
+              "link": "/political marketing"
+            },
+            {
+              "name": "Community Management",
+              "link": "/communityManagement"
+            },
+            {
+              "name": "Google Ads",
+              "link": "/googleAds"
+            }
+          ]
+        },
+        {
+          "Head": "Project Management",
+          "sublink": [
+            {
+              "name": "Project Management",
+              "link": "/projectManagement"
+            },
+            {
+              "name": "Asynchronous Project Management",
+              "link": "/projectManagementAsynchronous"
+            },
+            {
+              "name": "PMI Certifications",
+              "link": "/certificationsPmi"
+            }
+          ]
+        },
+        {
+          "Head": "Development",
+          "sublink": [
+            {
+              "name": "Fullstack",
+              "link": "/fullstack"
+            },
+            {
+              "name": "Frontend",
+              "link": "/frontend"
+            },
+            {
+              "name": "Backend",
+              "link": "/backend"
+            }
+          ]
+        },
+        {
+          "Head": "Security",
+          "sublink": [
+            {
+              "name": "Cybersecurity",
+              "link": "/cybersecurity"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "academy": "THE ACADEMY",
+  "companies": "COMPANIES",
+  "contact": "CONTACT",
+  "campus": "CAMPUS"
+}

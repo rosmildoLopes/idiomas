@@ -3,6 +3,8 @@ import { useTranslation } from "../i18n"
 import Beneficios from "./components/beneficios/Beneficios";
 import { Footer } from "./components/Footer";
 import Link from "next/link";
+import Certificacion from "./components/certificacion/Certificacion";
+import Navbar from "./components/navbar/Navbar";
 
 interface HomeProps {
   params: {
@@ -15,16 +17,10 @@ export default async function Page({ params }: HomeProps) {
   const { t } = await useTranslation(lng, "translate");
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-green-900">
-      <h1>{t('title')}</h1>
-      <Link href={`/${lng}/second-page`}>
-        {t('to-second-page')}
-      </Link>
-      <br />
-      <Link href={`/${lng}/client-page`}>
-        {t('to-client-page')}
-      </Link>
+    <main className="flex  flex-col items-center justify-between overflow-x-hidden">
+      <Navbar lng={lng} />
       <Beneficios lng={lng} />
+      <Certificacion lng={lng} />
       <Footer lng={lng} />
     </main>
   );

@@ -1,6 +1,7 @@
 import { dir } from "i18next";
 import { Montserrat } from 'next/font/google';
 import { languages } from "../i18n/settings";
+import './globals.css';
 
 const mont = Montserrat({ subsets: ['latin'] });
 
@@ -12,7 +13,8 @@ const RootLayout = ({ children, params: { lng } }) => {
   return (
     <html lang={lng} dir={dir(lng)}>
       <head />
-      <body className={mont.className}>{children}</body>
+      <body className={`${mont.className} z-0 bg-firstBackground md:overflow-x-hidden`}>{children}
+      </body>
     </html>
   );
 };

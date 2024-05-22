@@ -1,0 +1,78 @@
+{
+  "links": [
+    {
+      "name": "CURSOS",
+      "submenu": true,
+      "sublinks": [
+        {
+          "Head": "Marketing",
+          "sublink": [
+            {
+              "name": "Marketing digital",
+              "link": "/marketing"
+            },
+            {
+              "name": "Marketing político",
+              "link": "/marketing político"
+            },
+            {
+              "name": "Gestão Comunitária",
+              "link": "/comunidadeGerenciamento"
+            },
+            {
+              "name": "Anúncios do Google",
+              "link": "/googleAds"
+            }
+          ]
+        },
+        {
+          "Head": "Gerenciamento de projetos",
+          "sublink": [
+            {
+              "name": "Gerenciamento de projetos",
+              "link": "/gerenciamento de projetos"
+            },
+            {
+              "name": "Gerenciamento de projetos assíncronos",
+              "link": "/gerenciamento de projetosAssíncrono"
+            },
+            {
+              "name": "Certificações PMI",
+              "link": "/certificaçõesPmi"
+            }
+          ]
+        },
+        {
+          "Head": "Desenvolvimento",
+          "sublink": [
+            {
+              "name": "Pilha completa",
+              "link": "/pilha completa"
+            },
+            {
+              "name": "Front-end",
+              "link": "/front-end"
+            },
+            {
+              "name": "Processo interno",
+              "link": "/Processo interno"
+            }
+          ]
+        },
+        {
+          "Head": "Segurança",
+          "sublink": [
+            {
+              "name": "Cíber segurança",
+              "link": "/cíber segurança"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "academy": "A ACADEMIA",
+  "companies": "EMPRESAS",
+  "contact": "CONTATO",
+  "campus": "CAMPUS"
+}
