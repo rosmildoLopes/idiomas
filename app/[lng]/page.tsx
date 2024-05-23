@@ -5,6 +5,9 @@ import { Footer } from "./components/Footer";
 import Link from "next/link";
 import Certificacion from "./components/certificacion/Certificacion";
 import Navbar from "./components/navbar/Navbar";
+import HeroOne from "./components/heroOne/HeroOne";
+import SubHeroOne from "./components/subHeroOne/SubHeroOne";
+import ModalidadCursada from "./components/modalidadCursada/ModalidadCursada";
 
 interface HomeProps {
   params: {
@@ -19,7 +22,10 @@ export default async function Page({ params }: HomeProps) {
   return (
     <main className="flex  flex-col items-center justify-between overflow-x-hidden">
       {/* <Navbar lng={lng} /> */}
+      <HeroOne lng={lng} />
+      <SubHeroOne lng={lng} />
       <Beneficios lng={lng} />
+      <ModalidadCursada lng={lng} />
       <Certificacion lng={lng} />
       <Footer lng={lng} />
     </main>

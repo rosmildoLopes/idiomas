@@ -1,9 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
-import Tabs from './Tabs';
+import Tabs from '../tabs/Tabs';
 import { agba, titan } from '../../font/font';
+import { useTranslation } from "../../../i18n";
 
-const ModalidadCursada = () => {
+interface ModalidadCursadaProps {
+	lng:string;
+}
+const ModalidadCursada:React.FC<ModalidadCursadaProps> = async ({ lng }) => {
+	const { t } = await useTranslation(lng, "modalidad-cursada");
 	return (
 		<section className='flex flex-col md:flex-row md:justify-between w-5/6 mx-auto gap-8 my-16 overflow-hidden'>
 			<div className='flex flex-row-reverse md:flex-col justify-between items-center md:items-end md:justify-center md:w-2/6 w-full'>
@@ -21,12 +26,12 @@ const ModalidadCursada = () => {
 					<h2
 						className={`${titan.className} text-2xl md:text-4xl`}
 					>
-						MODALIDADES DE CURSADA
+						{t("title")}
 					</h2>
 					<h4
 						className={`${agba.className} text-green-gradient2 text-md md:text-2xl`}
 					>
-						Elegí la modalidad que mejor se adapte a vos
+						{t("text")}
 					</h4>
 				</div>
 			</div>

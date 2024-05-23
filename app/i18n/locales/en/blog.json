@@ -1,0 +1,52 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "date": "January 10",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "What is BOOTSTRAP?",
+      "content": "In this article, we will explore in detail one of the most popular frameworks: Bootstrap. We will discover the",
+      "link": "/article/1"
+    },
+    {
+      "id": 2,
+      "date": "January 9",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "Second ARTICLE",
+      "content": "In this article, we will explore in detail one of the most popular frameworks: Bootstrap. We will discover the",
+      "link": "/article/2"
+    },
+    {
+      "id": 3,
+      "date": "January 8",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "Third ARTICLE",
+      "content": "In this article, we will explore in detail one of the most popular frameworks: Bootstrap. We will discover the",
+      "link": "/article/3"
+    },
+    {
+      "id": 4,
+      "date": "January 7",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "Fourth ARTICLE",
+      "content": "In this article, we will explore in detail one of the most popular frameworks: Bootstrap. We will discover the",
+      "link": "/article/3"
+    },
+    {
+      "id": 5,
+      "date": "January 6",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "Fifth ARTICLE",
+      "content": "In this article, we will explore in detail one of the most popular frameworks: Bootstrap. We will discover the",
+      "link": "/article/3"
+    },
+    {
+      "id": 6,
+      "date": "January 5",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "Sixth ARTICLE",
+      "content": "In this article, we will explore in detail one of the most popular frameworks: Bootstrap. We will discover the",
+      "link": "/article/3"
+    }
+  ]
+}

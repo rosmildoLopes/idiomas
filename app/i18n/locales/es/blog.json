@@ -1,0 +1,52 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "date": "10 Enero",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "¿Qué es BOOTSTRAP?",
+      "content": "En este artículo, exploraremos en detalle uno de los framework más populares: Bootstrap. Descubriremos las",
+      "link": "/article/1"
+    },
+    {
+      "id": 2,
+      "date": "9 Enero",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "Segundo ARTÍCULO",
+      "content": "En este artículo, exploraremos en detalle uno de los framework más populares: Bootstrap. Descubriremos las",
+      "link": "/article/2"
+    },
+    {
+      "id": 3,
+      "date": "8 Enero",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "Tercero ARTÍCULO",
+      "content": "En este artículo, exploraremos en detalle uno de los framework más populares: Bootstrap. Descubriremos las",
+      "link": "/article/3"
+    },
+    {
+      "id": 4,
+      "date": "7 Enero",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "Cuarto ARTÍCULO",
+      "content": "En este artículo, exploraremos en detalle uno de los framework más populares: Bootstrap. Descubriremos las",
+      "link": "/article/3"
+    },
+    {
+      "id": 5,
+      "date": "6 Enero",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "Quinta ARTÍCULO",
+      "content": "En este artículo, exploraremos en detalle uno de los framework más populares: Bootstrap. Descubriremos las",
+      "link": "/article/3"
+    },
+    {
+      "id": 6,
+      "date": "5 Enero",
+      "image": "/blogQueEsBootstrap.svg",
+      "title": "Sexto ARTÍCULO",
+      "content": "En este artículo, exploraremos en detalle uno de los framework más populares: Bootstrap. Descubriremos las",
+      "link": "/article/3"
+    }
+  ]
+}

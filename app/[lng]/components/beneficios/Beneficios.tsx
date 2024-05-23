@@ -1,6 +1,5 @@
 "use client";
 import { useTranslation } from "../../../i18n/client";
-
 import Image from "next/image";
 import React from "react";
 import { agba, titan } from "../../font/font";
@@ -31,7 +30,7 @@ const Beneficios: React.FC<BeneficiosProps> = ({ lng }) => {
           <span
             className={`${agba.className} text-firstBlue text-2xl md:text-4xl`}
           >
-            {t("subtitle")}
+            {t("academia")}
           </span>
         </h2>
       </div>

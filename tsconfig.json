@@ -28,6 +28,6 @@
     ".next/types/**/*.ts",
     "app/middewares/middleware.js",
     "app/[lng]/components/footer/FooterBase.js"
-  ],
+, "app/[lng]/components/blogcards/BlogCards.tsx"  ],
   "exclude": ["node_modules"]
 }
