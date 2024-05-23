@@ -18,7 +18,7 @@ export default async function Page({ params }: HomeProps) {
 
   return (
     <main className="flex  flex-col items-center justify-between overflow-x-hidden">
-      <Navbar lng={lng} />
+      {/* <Navbar lng={lng} /> */}
       <Beneficios lng={lng} />
       <Certificacion lng={lng} />
       <Footer lng={lng} />
