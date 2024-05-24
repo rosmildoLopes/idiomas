@@ -5,12 +5,12 @@ import useEmblaCarousel from 'embla-carousel-react';
 import cursosData, {
 	CursosData,
 	Curso,
-} from '../constants/cursosData';
+} from '../../constants/cursosData';
 import Image from 'next/image';
-import { titan } from '../font/font';
+import { titan } from '../../font/font';
 import { GrNext } from 'react-icons/gr';
 import { GrPrevious } from 'react-icons/gr';
-import CursosMobile from './CursosMobile';
+import CursosMobile from '../cursosMobile';
 
 type Categoria =
 	| 'desarrollo'

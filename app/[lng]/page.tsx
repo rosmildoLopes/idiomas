@@ -8,6 +8,7 @@ import Navbar from "./components/navbar/Navbar";
 import HeroOne from "./components/heroOne/HeroOne";
 import SubHeroOne from "./components/subHeroOne/SubHeroOne";
 import ModalidadCursada from "./components/modalidadCursada/ModalidadCursada";
+import Comunidad from "./components/comunidad/Comunidad";
 
 interface HomeProps {
   params: {
@@ -27,6 +28,7 @@ export default async function Page({ params }: HomeProps) {
       <Beneficios lng={lng} />
       <ModalidadCursada lng={lng} />
       <Certificacion lng={lng} />
+      <Comunidad lng={lng} />
       <Footer lng={lng} />
     </main>
   );

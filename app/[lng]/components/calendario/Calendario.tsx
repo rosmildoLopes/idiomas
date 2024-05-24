@@ -4,12 +4,14 @@ import Image from 'next/image';
 import { BiMoviePlay } from 'react-icons/bi';
 import { MdScreenSearchDesktop } from 'react-icons/md';
 import { PiBackpackBold } from 'react-icons/pi';
+import { useTranslation } from '../../../i18n/client';
 
 interface CalendarioProps {
 	startDate: string;
 	endDate: string;
 	meetingDate: string;
 	buttonText: string;
+	lng:string;
 }
 
 const Calendario: React.FC<CalendarioProps> = ({
@@ -17,7 +19,9 @@ const Calendario: React.FC<CalendarioProps> = ({
 	endDate,
 	meetingDate,
 	buttonText,
+	lng
 }) => {
+	const { t } = useTranslation(lng, 'calendario');
 	const [showAdditionalInfo, setShowAdditionalInfo] =
 		useState(false);
 
@@ -85,7 +89,7 @@ const Calendario: React.FC<CalendarioProps> = ({
 										display: 'inline-block',
 									}}
 								>
-									<img
+									<Image
 										src='down.svg'
 										height={50}
 										width={50}
@@ -108,15 +112,15 @@ const Calendario: React.FC<CalendarioProps> = ({
 									width={116.15}
 								/>
 								<p className='text-center pt-5 text-lg'>
-									Quiero que me{' '}
+								{t('quiero')}{' '}
 									<strong>
-										contacte un <br />
-										asesor{' '}
+									{t('contactarme')} <br />
+									{t('asesor')}{' '}
 									</strong>
-									para mas información
+									{t('mas_info')}
 								</p>
 								<button className='text-white font-extrabold py-5'>
-									Ver más
+								{t('ver_mas')} 
 								</button>
 							</div>
 							<div className='flex flex-col justify-center items-center w-1/3'>

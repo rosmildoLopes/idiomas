@@ -36,7 +36,7 @@ const ModalidadCursada:React.FC<ModalidadCursadaProps> = async ({ lng }) => {
 				</div>
 			</div>
 			<div className='md:w-4/6 w-5/6 mx-auto'>
-				<Tabs />
+				<Tabs lng={lng}/>
 			</div>
 		</section>
 	);
