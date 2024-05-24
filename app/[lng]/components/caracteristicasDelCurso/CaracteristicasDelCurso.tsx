@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import Image from 'next/image';
-import { titan } from '../font/font';
+import { titan } from '../../font/font';
 
 interface CursoItem {
 	id: number;

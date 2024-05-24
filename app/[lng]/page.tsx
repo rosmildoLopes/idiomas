@@ -9,6 +9,8 @@ import HeroOne from "./components/heroOne/HeroOne";
 import SubHeroOne from "./components/subHeroOne/SubHeroOne";
 import ModalidadCursada from "./components/modalidadCursada/ModalidadCursada";
 import Comunidad from "./components/comunidad/Comunidad";
+import Calendario from "./components/calendario/Calendario";
+import Consulta from "./components/consulta/Consulta";
 
 interface HomeProps {
   params: {

@@ -1,11 +1,14 @@
 {
-  "desde_el": "Desde:",
+  "desde_el": "De:",
   "hasta_el": "Até:",
-  "quiero": "Quero que ",
-  "contactarme": "um consultor",
-  "asesor": "me contate ",
-  "mas_info": "para mais informações",
-  "preinscribirme": "Quero pré-inscrever-me para garantir minha vaga (você não precisa pagar ainda)",
-  "inscribirme": "Quero me inscrever e começar agora! (pagamento online)",
-  "ver_mas": "Ver mais"
+  "quiero": "quero um",
+  "contactarme": "contate-me",
+  "asesor": "com um conselheiro",
+  "mas_info": "para mais informacao",
+  "ver_mas": "Ver mais",
+  "quiero_preinscribirme": "Quero",
+  "preinscribirme": "fazer pré-cadastro para salvar minha vaga",
+  "pagar_online": "(pagamento online)",
+  "quiero_inscripcion": "Quero ",
+  "inscribirme": "Cadastre-se e comece agora!"
 }

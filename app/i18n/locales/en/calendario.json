@@ -5,7 +5,11 @@
   "contactarme": "advisor",
   "asesor": "to contact me",
   "mas_info": "for more information",
-  "preinscribirme": "I want to pre-register to save my spot (you don't have to pay yet)",
-  "inscribirme": "I want to enroll and start now! (online payment)",
-  "ver_mas": "See more"
+  "ver_mas": "See more",
+  "quiero_preinscribirme": "I want",
+  "preinscribirme": "to pre-register to save my spot",
+  "pagar": "(you don't have to pay yet)",
+  "quiero_inscripcion": "I want ",
+  "inscribirme": "enroll and start now!",
+  "pagar_online": "(online payment)"
 }

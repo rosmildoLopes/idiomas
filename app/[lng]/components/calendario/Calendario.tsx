@@ -54,7 +54,7 @@ const Calendario: React.FC<CalendarioProps> = ({
 							</div>
 						</div>
 						<div className='p-4 border-r-2 border-black w-full flex flex-col items-start pl-10'>
-							<p className=' font-extrabold'>Desde el: </p>
+							<p className=' font-extrabold'>{t("desde_el")} </p>
 							<p className=' font-black text-4xl'>
 								{startDate}
 							</p>
@@ -63,7 +63,7 @@ const Calendario: React.FC<CalendarioProps> = ({
 					<div className='flex w-3/4'>
 						<div className='p-4 border-r-2 border-black w-1/3 flex flex-col items-start pl-12'>
 							<p className='text-start font-extrabold'>
-								Hasta el:
+							{t("hasta_el")}
 							</p>
 							<p className='text-start font-black text-4xl'>
 								{endDate}
@@ -131,15 +131,15 @@ const Calendario: React.FC<CalendarioProps> = ({
 									width={116.15}
 								/>
 								<p className='text-center pt-5 text-lg'>
-									Quiero{' '}
+								{t("quiero_preinscribirme")}{' '}
 									<strong>
 										{' '}
-										preinscribirme para guardar mi vacante
+										{t("preinscribirme")}
 									</strong>{' '}
-									(no tendrás que pagar aún)
+									{t("pagar")}
 								</p>
 								<button className='text-white font-extrabold py-5'>
-									Ver más
+								{t("ver_mas")}
 								</button>
 							</div>
 							<div className='flex flex-col justify-center items-center w-1/3'>
@@ -150,14 +150,14 @@ const Calendario: React.FC<CalendarioProps> = ({
 									width={116.15}
 								/>
 								<p className='text-center pt-5 text-lg'>
-									Quiero{' '}
+								{t("quiero_inscripcion")}{' '}
 									<strong>
-										Inscribirme y comenzar ya{' '}
+									{t("inscribirme")}{' '}
 									</strong>
-									! (pago online)
+									{t("pagar_online")}
 								</p>
 								<button className='text-white font-extrabold py-5'>
-									Ver más
+								{t("ver_mas")}
 								</button>
 							</div>
 						</div>
